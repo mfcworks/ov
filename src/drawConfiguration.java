@@ -38,7 +38,7 @@ public class drawConfiguration extends JPanel {
         gWin.setVisible(true); // show it!
         Insets theInsets = gWin.getInsets();
         gWin.setSize(fSize + theInsets.left + theInsets.right + marginX*2,
-        		fSize + theInsets.top + marginY*2+ theInsets.bottom+30); /* 下30は文字出力用*/
+        		fSize + theInsets.top + marginY*2+ theInsets.bottom/*+30*/); /* 下30は文字出力用*/
         this.frameTop = theInsets.top;
         this.frameLeft = theInsets.left;
 
